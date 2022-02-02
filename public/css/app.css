@@ -32,7 +32,6 @@
 }
 
 #header {
-  padding: 15px 0;
   height: 100px;
 }
 #header .container {
@@ -43,6 +42,7 @@
 }
 #header .container .logo {
   height: 100%;
+  padding: 15px 0;
 }
 #header .container .logo img {
   height: 100%;
