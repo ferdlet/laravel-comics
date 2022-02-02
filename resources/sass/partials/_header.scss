@@ -1,0 +1,20 @@
+@import 'partials/variables';
+
+#header-topbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: $dc-blue;
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        li {
+            padding: 5px;
+            margin-left: 30px;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}

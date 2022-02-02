@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header-topbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #0382F9;
+}
+#header-topbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#header-topbar ul li {
+  padding: 5px;
+  margin-left: 30px;
+}
+#header-topbar ul li a {
+  color: white;
+  text-decoration: none;
+}
