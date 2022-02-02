@@ -1,20 +1,70 @@
-@import 'partials/variables';
-
 #header-topbar {
-    display: flex;
-    justify-content: flex-end;
     background-color: $dc-blue;
-    ul {
+    .container {
         display: flex;
-        align-items: center;
-        list-style: none;
-        li {
-            padding: 5px;
-            margin-left: 30px;
-            a {
-                color: white;
-                text-decoration: none;
+        justify-content: flex-end;
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            li {
+                padding: 5px;
+                margin-left: 30px;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
             }
+        }
+    }
+}
+
+#header {
+    padding: 15px 0;
+    height: 100px;
+    .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+
+        .logo {
+            height: 100%;
+
+            img {
+                height: 100%;
+                display: block;
+            }
+        }
+        ul {
+            height: 100%;
+            @include flex-center;
+            li {
+                height: 100%;
+                list-style: none;
+                a {
+                    height: 100%;
+                    padding: 0 10px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: bold;
+                    @include flex-center;
+                    color: #444;
+                    &.active {
+                    color: $dc-blue;
+                    border-bottom: 4px solid $dc-blue;
+                    }
+                    &:hover {
+                    background-color: #ddd;
+                    }
+                }
+            }
+        }
+        input {
+            border: none;
+            border-bottom: 2px solid $dc-blue;
+            padding: 5px;
         }
     }
 }

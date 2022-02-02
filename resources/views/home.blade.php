@@ -6,5 +6,5 @@
 
 @section('pageContent')
     @include('../partials.jumbotron')
-    @include('../partials.main')
+    @include('../partials.currentSeries')
 @endsection
