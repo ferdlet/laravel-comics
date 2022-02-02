@@ -1,0 +1,39 @@
+.footer-body {
+    background-image: url('../images/footer-bg.jpg');
+    background-size: cover;
+    .container {
+        position: relative;
+        overflow: hidden;
+        > img {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .container-list {
+            padding: 40px 0;
+            display: flex;
+            .lista {
+                display: inline-block;
+                margin-right: 35px;
+                color: white;
+                h2 {
+                margin: 15px 0;
+                text-transform: uppercase;
+                }
+                ul {
+                list-style: none;
+                    li {
+                        margin: 8px 0;
+                        a {
+                        color: #777;
+                        text-decoration: none;
+                        font-size: 14px;
+                        }  
+                    }
+                }
+            }
+        }
+    }
+    
+}
