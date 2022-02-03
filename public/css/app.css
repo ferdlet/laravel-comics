@@ -1,4 +1,4 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -79,7 +79,7 @@
 }
 #header .container input {
   border: none;
-  border-bottom: 2px solid #0382F9;
+  border-bottom: 3px solid #0382F9;
   padding: 5px;
 }
 
@@ -147,6 +147,42 @@
   transform: translateX(-50%);
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-top {
+  background-color: #0382F9;
+  height: 110px;
+}
+.footer-top .container {
+  height: 100%;
+}
+.footer-top .container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  height: 100%;
+}
+.footer-top .container ul li {
+  height: 100%;
+}
+.footer-top .container ul li a {
+  color: white;
+  height: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-top .container ul li a img {
+  margin-right: 15px;
+  height: 35px;
+}
+
 .footer-body {
   background-image: url("../images/footer-bg.jpg");
   background-size: cover;
@@ -184,6 +220,45 @@
   color: #777;
   text-decoration: none;
   font-size: 14px;
+}
+
+.footer-bottom {
+  background-color: #1C1C1C;
+  padding: 20px;
+}
+.footer-bottom button {
+  background: transparent;
+  border: 2px solid #0382F9;
+  padding: 10px 10px;
+}
+.footer-bottom button a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom .container > div {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .container > div h2 {
+  color: #0382F9;
+  text-transform: uppercase;
+  margin-right: 15px;
+  font-size: 16px;
+}
+.footer-bottom .container > div ul {
+  display: flex;
+  list-style: none;
+}
+.footer-bottom .container > div ul img {
+  height: 25px;
+  margin: 0 5px;
 }
 
 #jumbotron {
